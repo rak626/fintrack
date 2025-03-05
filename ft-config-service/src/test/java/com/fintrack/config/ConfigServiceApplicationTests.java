@@ -1,4 +1,4 @@
-package com.fintrack.ft_config_service;
+package com.fintrack.config;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

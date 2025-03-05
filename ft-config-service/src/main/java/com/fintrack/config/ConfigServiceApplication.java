@@ -1,4 +1,4 @@
-package com.fintrack.ft_config_service;
+package com.fintrack.config;
 
 import com.fintrack.framework.common.util.ProfileSetup;
 import org.springframework.boot.SpringApplication;
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableConfigServer
-//@ComponentScan(basePackages = "com.fintrack")
+@ComponentScan(basePackages = "com.fintrack")
 public class ConfigServiceApplication {
 
 	public static void main(String[] args) {

@@ -12,7 +12,7 @@ spring:
         serviceId: config-service
     name: redis-config,transaction-service
   application:
-    name: transaction-management-service
+    name: transaction-service
 
 eureka:
   instance:
