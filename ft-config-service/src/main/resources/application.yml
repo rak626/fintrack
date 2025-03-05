@@ -1,0 +1,27 @@
+server:
+  port: 4410
+
+spring:
+  application:
+    name: config-service
+  config:
+    activate:
+      on-profile: dev,prod
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: file:///home/rakesh/development/java/fintrack/ft-config
+
+eureka:
+  instance:
+    preferIpAddress: true
+    leaseRenewalIntervalInSeconds: 30
+    leaseExpirationDurationInSeconds: 60
+  client:
+    service-url:
+      defaultZone: http://localhost:4400/eureka
+
+management:
+  security:
+    enabled: false

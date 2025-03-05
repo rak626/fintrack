@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ft-common-util" />
+        <module name="ft-config-service" />
+        <module name="ft-discovery-service" />
+        <module name="ft-common" />
+      </profile>
+      <profile name="Annotation profile for fintrack" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+        </processorPath>
+        <module name="ft-user-management-service" />
+        <module name="ft-transaction-management-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ft-common" options="-parameters" />
+      <module name="ft-common-util" options="-parameters" />
+      <module name="ft-config-service" options="-parameters" />
+      <module name="ft-discovery-service" options="-parameters" />
+      <module name="ft-framework" options="" />
+      <module name="ft-transaction-management-service" options="-parameters" />
+      <module name="ft-user-management-service" options="-parameters" />
+    </option>
+  </component>
+</project>
