@@ -29,7 +29,7 @@
         <module>ft-framework</module>
         <module>ft-discovery-service</module>
         <module>ft-config-service</module>
-        <module>ft-transaction-management-service</module>
+        <module>ft-finance-service</module>
         <module>ft-user-management-service</module>
     </modules>
 
