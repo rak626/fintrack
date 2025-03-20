@@ -1,4 +1,4 @@
-package com.fintrack.ft_discovery_service;
+package com.fintrack.discovery;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

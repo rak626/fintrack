@@ -1,4 +1,4 @@
-package com.fintrack.ft_discovery_service;
+package com.fintrack.discovery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -19,7 +19,6 @@ public class Transaction {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
     private Long userId;
-    @Enumerated(EnumType.STRING)
     private TransactionUtils.TransactionType transactionType; // income or expense
     private String category;
     private Double amount;
